@@ -1,0 +1,26 @@
+{% extends 'main.html' %}
+
+{% block cabecera %}
+      <title>Registro</title>
+{% endblock %}
+{% block cuerpo%}
+     <div class="container">
+        <div class="row">
+            <div class="col-2">
+                {% include 'componentes/navbar.html'%}
+                {% include 'componentes/publicar-modal.html'%}  
+            </div>
+            <div class="col-6">
+                <h5 class="text-center">REGISTRO DE LIBROS</h5>
+                <hr>
+                {% for libro in libro %}
+                    {{libro.nombre }}
+                    {{libro.autor }}
+                    {{libro.year }}
+                    {{libro.portada }}
+                {% endfor %}
+                <br><br> <br> <br><h2 class="text-center">BIENVENIDO</h2>
+            </div> 
+        </div>
+     </div>
+{% endblock%}

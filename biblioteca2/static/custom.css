@@ -1,0 +1,198 @@
+body{
+    background-color: #111111;
+    text-align: center;
+      background-attachment: relative;
+      background-position: center center;
+      min-height: 740px;
+      width: 100%;
+      -webkit-background-size: 100px;
+      -moz-background-size: 100px;
+      -moz-background-size: 100px;
+      background-size: 100px;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -moz-background-size: cover; 
+      display: block;
+      
+  }
+
+h2{
+    color: white;
+    font-family: Verdana;
+    font-weight: bold;
+}
+
+#ues-logo{
+    margin-left: 20px;
+}
+#ues-btn-publicar-modal{
+    background-color: #283ebd;
+    border-color: #5b2ed6;
+    color: #fff;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+#form-group{
+    background-color: #563cca;
+    border-color: #3d34be;
+    color: #fff;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    
+}
+
+#ues-btn-publicar-modal:hover{
+    background-color: #1533bb;
+    border-color: #4732be;
+}
+.ues-btn{
+    width: 100%;
+    text-align: left;
+    color: black;
+    border-radius: 30px;
+    padding: 11px;
+    padding-left: 20px;
+    font-size: 1.2rem;
+    background-color: #ebebeb ;
+    border-color: #fff;
+    transition-duration: 0.3s;
+}
+.ues-btn:hover{
+    background-color: #2630ba;
+    border-color: #2635ba;
+
+}
+.ues-info{
+    background-color: #4732be;
+    border-color: #4732be;
+    transition-duration: 0.3s;
+    
+}
+.ues-info:hover{
+    background-color: #dcd9f0;
+    border-color: #4242a0;
+}
+.ues-textarea{
+    resize: none;
+    overflow: auto;
+}
+/* #formulario{
+    width: 30%;
+    text-align: center;
+    color: black;
+    border-radius: 5px;
+    padding: .2px;
+    padding-left: 20px;
+    font-size: 1.1rem;
+    background-color: #5855df ;
+    border-color: #fff;
+    transition-duration: 0.1s;
+    font-size: 1rem;
+    font-weight: bold;
+} */
+    
+
+.form-control2{
+    background-color:rgb(243, 243, 245);
+    width: 300px;
+    height: 50px;
+    border-width: 2px;
+    border-style:solid;
+    border-radius: 10px;
+    font-weight: bold;
+    font-family: Arial;
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+#form-group2{
+    border-color: black;
+    border-radius: 10px;
+    border-width: 6px;
+    border-style: solid;
+    height: auto;
+    width: 500px;
+    margin-left: 400px;
+
+}
+
+#text606{
+    font-size: 17px;
+    font-weight: bold;
+    font-family: verdana;
+}
+
+#registro{
+    width: 400px;
+    height: 500px;
+    margin-left: 360px;
+    margin-top: 0.5cm;
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 10px;
+    font-family: Verdana;
+    font-weight: bold;
+}
+
+#registro h2, h1, input{
+    padding: 15px;
+    color: #111111;
+}
+
+#registro input{
+    width: 75%;
+    padding: 0.5em;
+    border: 1px solid #111111;
+    border-radius: 5px;
+    color: white;
+    background-color: #111111;
+    text-align: center;
+    margin-left: 50px;
+}
+
+#actualizar{
+    width: 30%;
+    border: 2px solid white;
+    padding: 30px 10px;
+    margin-left: 500px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#actualizar input{
+    padding: 0.5em;
+    border: 1px solid #111111;
+    border-radius: 5px;
+    color: white;
+    background-color: #111111;
+}
+
+#actualizar h2 h4 input{
+    padding: 5px;
+}
+
+#actualizar button{
+    margin-left: 90px;
+    padding: 10px auto;
+    background-color: #111111;
+    color: white;
+    border: 1px solid #111111;
+    height: 35px;
+    width: 100px;
+    border-radius: 5px;
+}
+
+button{
+    margin-right: 80px;
+}
+
+#registro button{
+    background-color: #111111;
+    color: white;
+    border: 1px solid #111111;
+    margin-right: 150px;
+}
+

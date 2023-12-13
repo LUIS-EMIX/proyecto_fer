@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='custom.css')}}">
+    <title>Biblioteca</title>
+</head>
+<body>
+<br>
+
+    <h2>BIBLIOTECA</h2>
+    <br>
+    <table class="table table-light">
+        <thead class="thead-light">
+            <tr>
+                <th>ID</th>
+                <th>Nombre</th>
+                <th>Autor</th>
+                <th>Año</th>
+                <th>Portada</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for libro in libro %}
+            <tr>
+                <td>{{libro.id }}</td>
+                <td>{{libro.nombre }}</td>
+                <td>{{libro.autor }}</td>
+                <td>{{libro.year }}</td>
+                <td>{{libro.portada }}</td>
+                
+                <td> <a type="button" data-bs-dismiss="modal" href="{{url_for('act', id = libro.id)}}" >Actualizar</a> |
+                    <a href="{{url_for('eliminar', id = libro.id)}}">Eliminar</a>
+                </td>
+            </tr>
+            {% endfor %}        
+        </tbody>
+    </table>
+    
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-2">
+                    {% include 'componentes/publicar-form.html'%}
+                </div>                
+            </div>
+         </div>
+    </section>
+</body>
+</html>

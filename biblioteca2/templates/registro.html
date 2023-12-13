@@ -1,0 +1,22 @@
+{% extends 'main.html' %}
+
+{% block cabecera %}
+      <title>biblioteca</title>
+{% endblock %}
+{% block cuerpo%}
+     <div class="container">
+        <div class="row">
+            <div class="col-6">
+                <h5 class="text-center">REGISTRO</h5>
+                {% include 'componentes/publicar-form.html'%}
+                <hr>
+                {% for libro in libro %}
+                    {{libro.nombre }}
+                    {{libro.autor }}
+                    {{libro.year }}
+                    {{libro.portada }}      
+                {% endfor %}
+            </div> 
+        </div>
+     </div>
+{% endblock%}
